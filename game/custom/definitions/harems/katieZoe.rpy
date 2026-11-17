@@ -124,7 +124,7 @@ label katieZoeDuoStoryEvent1(fromGallery):
         show zoe neutral
         mc.c "Мы... э-э..."
         show katie neutral
-    'Обе' "...?"
+        'Обе' "...?"
         "Чёрт... Какой же я идиот."
         mc.c "Мы с Кэти... встречаемся."
         "Зои смотрит на меня непонимающе. Она не совсем понимает, что я говорю?"
