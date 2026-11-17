@@ -112,7 +112,7 @@ screen barOverview:
     frame:
         modal True
         xalign 0.5 yalign 0.5
-        xsize 0.7 ysize 0.7
+        xsize 0.94 ysize 0.84
         background None
         at shopRevealTransition
         vbox:
@@ -134,8 +134,8 @@ screen barOverview:
                 xsize 1.0 ysize 1.0
                 style_prefix "barOverviewGrid"
                 grid 8 9:
-                    xspacing -15
-                    yspacing 10
+                    xspacing 2
+                    yspacing 6
                     text _('{b}Item{/b}')
                     text _('{b}Level{/b}')
                     text "{b}+/-{/b}"
@@ -439,7 +439,7 @@ screen autoRestockTooltip:
             text _('Automatically restock by 500 when stock runs out.\nOnly use when certain, it might drain your account!\nIncurs a $[bar_autoRestockCost] fee')
 
 style barOverviewGrid_text:
-    size 30
+    size 22
     align (0.5, 0.5)
 
 style barOverviewGrid_button:
@@ -447,10 +447,10 @@ style barOverviewGrid_button:
     idle_background Frame('gui/genericButtonBackground.webp', 40, 40, 40, 40)
     hover_background Frame('gui/genericButtonBackgroundHover.webp', 40, 40, 40, 40)
     insensitive_background Frame('gui/genericButtonBackgroundDisabled.webp', 40, 40, 40, 40)
-    padding (8, 5)
+    padding (5, 3)
 
 style barOverviewGrid_button_text:
-    size 30
+    size 22
 
 style barOverviewActionHover_text:
     size 20
